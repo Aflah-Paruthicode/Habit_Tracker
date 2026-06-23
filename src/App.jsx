@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import './index.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <section id="center">
+      <section className="bg-black/90 h-screen w-full">
+      <nav className='text-center font-bold p-20 text-2xl text-white'>Habit tracker</nav>
         <div className="hero">
+
           </div>
           </section>
     </>
